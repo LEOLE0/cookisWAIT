@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import './themes.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .grain-texture {
+    background-image: 
+      radial-gradient(circle at 1px 1px, rgba(255,255,255,.15) 1px, transparent 0);
+    background-size: 20px 20px;
+  }
+  
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+  }
+  
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+}
+
+body {
+    font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-headline);
+}

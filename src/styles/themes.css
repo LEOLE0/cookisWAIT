@@ -1,0 +1,18 @@
+:root {
+  /* Thème chocolat */
+  --primary-chocolate: #2C1810;
+  --secondary-chocolate: #8B4513;
+  --accent-gold: #D4AF37;
+  
+  /* Thème beige */
+  --primary-beige: #F5E6D3;
+  --secondary-beige: #E8D5B7;
+  --accent-brown: #8B4513;
+  
+  /* Typography */
+  --font-headline: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Animations */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
