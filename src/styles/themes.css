@@ -10,8 +10,8 @@
   --accent-brown: #8B4513;
   
   /* Typography */
-  --font-headline: 'Playfair Display', serif;
-  --font-body: 'Inter', sans-serif;
+  --font-headline: 'Syncopate', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
   
   /* Animations */
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
